@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
            
             item.style.filter = 'none';
             setTimeout(() => {
-                item.style.filter = 'blur(9px) grayscale(100%)';
+                item.style.filter = 'blur(9px) grayscale(100%) brightness(40%)';
             });
             item.style.transform = 'scale(1.1)';
         });
